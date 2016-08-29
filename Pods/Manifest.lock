@@ -1,0 +1,97 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.4.0):
+    - Bolts/AppLinks (= 1.4.0)
+    - Bolts/Tasks (= 1.4.0)
+  - Bolts/AppLinks (1.4.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.4.0)
+  - FBSDKCoreKit (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.6.0)
+    - FBSDKCoreKit/no-arc (= 4.6.0)
+  - FBSDKCoreKit/arc (4.6.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.6.0):
+    - FBSDKCoreKit
+  - FDTake (0.2.4)
+  - HHTabListController (1.1.2)
+  - MBProgressHUD (0.9.1)
+  - RMActionController (1.0.5)
+  - RMDateSelectionViewController (2.0.3):
+    - RMActionController (~> 1.0.5)
+  - Stripe (7.0.2)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking (~> 2.0)
+  - FBSDKCoreKit (= 4.6.0)
+  - FBSDKLoginKit (= 4.6.0)
+  - FDTake
+  - HHTabListController (~> 1.1.2)
+  - MBProgressHUD
+  - RMActionController (from `https://github.com/CooperRS/RMActionController.git`)
+  - RMDateSelectionViewController (from `https://github.com/CooperRS/RMDateSelectionViewController.git`)
+  - Stripe (from `https://github.com/stripe/stripe-ios.git`)
+
+EXTERNAL SOURCES:
+  RMActionController:
+    :git: https://github.com/CooperRS/RMActionController.git
+  RMDateSelectionViewController:
+    :git: https://github.com/CooperRS/RMDateSelectionViewController.git
+  Stripe:
+    :git: https://github.com/stripe/stripe-ios.git
+
+CHECKOUT OPTIONS:
+  RMActionController:
+    :commit: 778c4b066b5bbec5c27cd82eace71067263034b2
+    :git: https://github.com/CooperRS/RMActionController.git
+  RMDateSelectionViewController:
+    :commit: 4235c5f4dab1aa781968c1993c9f1186f8480653
+    :git: https://github.com/CooperRS/RMDateSelectionViewController.git
+  Stripe:
+    :commit: ed8c2d38be5784a2730ccd77decc2eb4153b0576
+    :git: https://github.com/stripe/stripe-ios.git
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  FBSDKCoreKit: 9954492d90c5fd65ae831395697a1660360d61f1
+  FBSDKLoginKit: 3d07febbfa884b9878cacba54f705bb41f07d4b6
+  FDTake: 6ff34778a1d0b5d5a1883fc6773e158ed89bd473
+  HHTabListController: 000172f2e54902bf3fc27ee8dc9c3e35a3068807
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  RMActionController: b83653e7452ed51492094d65dc82151c36443c03
+  RMDateSelectionViewController: 354a0f1fe40bac01054528b7a8735f2973bbd813
+  Stripe: d1eae5522cf993590f962ac1829a56c2096cf486
+
+PODFILE CHECKSUM: f139d56c4365854ea2241ee2d89998fde489b74f
+
+COCOAPODS: 1.0.1
